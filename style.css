@@ -125,7 +125,62 @@ img {
   border-radius: 50%;
   padding: 20px
 }
+}
+
+/* BONUS TABLET (rif. IPAD Pro) */
+@media screen and (min-width: 421px) and (max-width: 1200px){
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  img {
+    height: 120px;
+  }
+  .container.grey {
+    background-color: white;
+  }
+  /* margini */
+  #why, 
+  #steps, 
+  #lezioni{ 
+    padding: 8%;
+  }
+  .container, #why{
+    background-color: #F2F2CD;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
 
 
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+}
+#why {
+  text-align: center;
+}
 
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#why .row img {
+  background-color: #428BCA;
+  border-radius: 50%;
+  padding: 20px
+}
 }
